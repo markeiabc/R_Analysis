@@ -1,0 +1,41 @@
+#MPG Regression
+
+Using a multiple linear regression model, I identified the variables most significant in determine the miles per gallon (mpg) of a vehicle. After running the regression model, I determined that noth vehicle length and ground clearance have a significant impact on a vehicles mpg. Both the vehicle length and ground clearance provided the non-random amount of variance. 
+
+Both p-values of vehicle length and ground clearance are significantly less than 0.05, a p-vale that would identify a variable as being normal from the perspective of the importance of findings. Both variables are considered very high in the importance of findings, meaning their is a high significance in the linear relationship. This determines that the slope of the linear model is not zero. 
+
+Additionally, the multiple linear regression showed that intercept has a significant impact as well, meaning there are other variables not included in this dataset that are important in predicting the mpg of a vehicle. Given this discovery, this model should be improved and more data should be collected in order for it to effectively predict mpg of MechaCar prototypes. 
+
+#Suspension Coil Summary
+
+The mean of the suspension coils is 1499.531 and median is 1499.747, signifying we have a normal distribution. The variance is currently 76.23459 and the standard deviation 8.731242 which tells us that we have room for the variance to go up and still remain under the 100 pounds per inch required for this design. The data we have meets the design specifications. 
+
+#Suspension Coil T-Test
+
+When running the t-test, it returned a p-value of 0.5117, which is above the significance level of 0.05. This concludes that we don't have enough evidence to reject the null hypothesis and there is no overall statistical difference between the mean of the coil results and the population results.
+
+#Design your own study
+
+When looking to quantify how the MechaCar outperforms the competetition, I would look to add additional data in order to provide a more detailed analysis on why a consumer should be confident in purchasing the MechaCar instead of another vehicle.
+
+The additonal data points to add:
+-Cost - When comparing models with similar characteristics, the price will be an important point to reference
+
+-Fuel Efficiency - With more time spent commuting, consumers will look at what will offer the most mpg to avoid having to fill their tanks too frequently
+
+-Safety Features - Safety is a top priority of many drivers so it is important to understand what a vehicle has to protect you prior to purchasing 
+
+Questions to answer with the analysis:
+-How many safety features are offered in each model?
+-What is the average mpg for city and highway?
+-How does the price of a vehicle differ as features are added and/or removed? 
+-What additonal features are available for the vehicle? (i.e. color, leather seats, moonroof, premium audio system, powerseats, etc.)
+
+Hypothesis:
+-H0 : The difference between our paired observations (fuel efficiency, cost, safety features) of MechaCar and <Competitor> is equal to zero.
+-Ha : The difference between our paired observations (fuel efficiency, cost, safety features) of MechaCar and <Competitor> is not equal to zero.
+
+I would use the one-sample t-test to perform a statistical test between MechaCar and the population of competitors. If comparing MechaCar to a few specific competitors, I would perform an ANOVA test. 
+
+
+
